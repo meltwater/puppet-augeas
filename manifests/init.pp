@@ -1,7 +1,7 @@
 class augeas {
 
   if ( ! $augeas_version ) {
-    $augeas_version = "present"
+    $augeas::augeas_version = "present"
   }
 
   case $operatingsystem {
