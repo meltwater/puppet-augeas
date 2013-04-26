@@ -10,7 +10,7 @@ class augeas::base {
     recurse => true,
     purge   => true,
     force   => true,
-    mode    => 0644,
+    mode    => '0644',
     owner   => "root",
     group   => "root",
   }
